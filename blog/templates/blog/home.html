@@ -1,0 +1,15 @@
+{% extends "blog/base.html"%}
+{% block content %}
+    {% for post in posts %}
+
+    <article class="article">
+        <a class="mr-2" href="/author">{{ post.author }}</a>
+        
+        <h2><a style="text-decoration: none; color: #000;" href="#">{{ post.title }}</a></h2>
+        <small class="text-muted">{{ post.date_posted }}</small>
+        <p class="article-content">{{ post.content }}</p>
+
+      </article>
+
+    {% endfor %}
+{% endblock content %}

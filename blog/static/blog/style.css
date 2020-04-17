@@ -1,0 +1,19 @@
+.my-nav {
+    background-color: #546E7F;
+}
+.site-header {
+    margin-bottom: 15px;
+}
+.article {
+    padding: 10px;
+    margin-bottom: 8px;
+    box-shadow:0px 0px 2px 0px #546E7F;
+}
+
+#div_id_username {
+    color: red ;
+}
+
+.h3aio {
+    color: red;
+}

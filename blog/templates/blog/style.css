@@ -1,0 +1,131 @@
+body {
+  direction: ltr;
+  font-family: IRANSans, Tahoma, Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+
+  src: url("../webfonts/eot/IRANSansWeb_Bold.eot"),
+    url("../webfonts/eot/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/woff2/IRANSansWeb_Bold.woff2") format("woff2"),
+    url("../webfonts/woff/IRANSansWeb_Bold.woff") format("woff"),
+    url("../webfonts/ttf/IRANSansWeb_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+
+  src: url("../webfonts/eot/IRANSansWeb.eot"),
+    url("../webfonts/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/woff2/IRANSansWeb.woff2") format("woff2"),
+    url("../webfonts/woff/IRANSansWeb.woff") format("woff"),
+    url("../webfonts/ttf/IRANSansWeb.ttf") format("truetype");
+}
+
+.clearfix {
+    clear: both;
+}
+.demo{
+  display: inline-block;
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(185, 82, 82);
+}
+.red {
+  color: red;
+  background: #FEBEBE;
+}
+.green {
+  background: #FEBEBE;
+}
+.blue {
+  color: blue;
+  background: #E3E6FD;
+}
+.app{
+}
+.tops{
+}
+
+.you1 {
+  text-align: center;
+}
+
+.monster1 {
+  text-align: center;
+}
+
+.control{
+  margin-top: 40px ;
+  padding: 30px 0;
+  border: solid 1px rgb(195, 193, 193);
+}
+.btn88 {
+  cursor: pointer;
+  padding: 3px 20px;
+  margin: 0 5px;
+  background-color: #74FD7B;
+  border-bottom: 0.5px solid #000;
+  border-radius: 3px;
+}
+.btn1 {
+  cursor: pointer;
+
+  padding: 3px 5px;
+  margin: 0 5px;
+  background-color: #FE7364;
+  border-bottom: 0.5px solid #000;
+  border-radius: 3px;
+}
+.btn2{
+  cursor: pointer;
+
+  padding: 3px 5px;
+  margin: 0 5px;
+  background-color: #FDAF4C;
+  border-bottom: 0.5px solid #000;
+  border-radius: 3px;
+}
+.btn3 {
+  cursor: pointer;
+
+  padding: 3px 5px;
+  margin: 0 5px;
+  background-color: #74FD7B;
+  border-bottom: 0.5px solid #000;
+  border-radius: 3px;
+}
+.btn4 {
+  cursor: pointer;
+
+  padding: 3px 5px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-bottom: 0.5px solid #000;
+  border-radius: 3px;
+}
+
+.logs {text-align: center;
+  border: solid 1px rgb(195, 193, 193);
+  margin-top: 30px;
+}
+.logs ul {
+  
+  margin: 50px 0;
+  list-style: none;
+  padding: 0;
+
+}
+.logs ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
