@@ -2,7 +2,7 @@
 {% load crispy_forms_tags%}
 {% block content %}
     <div style="box-shadow:0px 0px 2px 0px #546E7F; padding: 15px;">
-        <h3 class="h3aio">Join Today</h3>
+        <h3>LogIn</h3>
         <hr>
 
         <form method="POST">
@@ -10,12 +10,12 @@
             {{form|crispy}}
         
         <div class="form-goup">
-            <button class="btn btn-outline-info" type="submit">Sing Up</button>
+            <button class="btn btn-outline-info" type="submit">login</button>
         </div>
         </form> 
         <hr>
         <div>
-            <span class="text-muted">Already Have An Account ? <a class="ml-2" href="{% url 'login'%}"> Sing in</a></span>
+            <span class="text-muted">Need An Account ? <a class="ml-2" href="{% url 'blog-register'%}"> Sing Up</a></span>
         </div>
         
     </div>

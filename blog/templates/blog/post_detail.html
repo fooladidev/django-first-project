@@ -1,0 +1,19 @@
+{% extends "blog/base.html"%}
+{% block content %}
+
+    <article class="article">
+
+    <img class="rounded-circle article-img" style="width: 100px;height: 100px;" src="{{ object.auhtor.profile.image.url }}" alt="">
+    <a class="mr-2" href="{% url 'user-posts' object.auhtor.username%}">{{ object.auhtor }}</a>
+
+    <h2>{{ object.title }}</h2>
+    <small class="text-muted">{{ object.date_posted }}</small>
+    {% if object.auhtor == user%}
+        <a class="btn btn-secondary btn-sm" href="{% url 'post-update' object.id%}">update post</a>
+        <a class="btn btn-danger btn-sm" href="{% url 'post-delete' object.id%}"> delete post</a>
+    {% endif%}
+    <p class="article-content">{{ object.content }}</p>
+
+    </article>
+
+{% endblock content %}
